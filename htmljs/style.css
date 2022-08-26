@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(122, 186, 226);
+}
+#container{
+    background: grey;
+    width: 130px;
+    height: 100vh;
+    color: yellow;
+  
+    
+} 
+#container p {
+    font-size: 14px;
+      padding: 15px;
+      text-transform: capitalize;
+}
+#open{
+    background: gray;
+    border: none;
+    padding: 8px;
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+    color: yellow;
+}
+#close{
+    background: gray;
+    border: none;
+    padding: 8px;
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+    color: yellow;
+    position: absolute;
+    right: 300px;
+}
+#container p:hover , button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#open:hover{
+    
+    cursor: pointer;
+background: black;
+}
+#close:hover{
+    cursor: pointer;
+background: black;
+}
+.head{
+    display: none;
+}
